@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+
+<style>
+
+    label, input{
+        display: inline-block;
+        vertical-align: baseline;
+        width: 125px;
+        margin-bottom: 10px;
+    }
+
+    .form1{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: fit-content;
+        margin: 0 auto;
+        border: solid 1px black;
+    }
+
+    .formDiv1{
+        display: block;
+        text-align: center;
+        margin-bottom: 20px;
+
+
+    }
+
+    .form2{
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: fit-content;
+        margin: 0 auto;
+        border: solid 1px black;
+    }
+
+    .formDiv2{
+        display: block;
+        text-align: center;
+
+    }
+
+    label{
+        display: inline-block;
+        text-align: right;
+        margin-right: 5px;
+    }
+
+    .inputDiv{
+        padding: 0 30px 0 10px;
+
+    }
+
+    .inputDiv2{
+        padding: 0 30px 0 10px;
+
+    }
+
+
+
+</style>
+
+
+<body>
+
+<div class="formDiv1">
+<form class="form1" action="processForm.php">
+
+    <div class="inputDiv">
+
+    <label for="nameInput">Name: </label><input type="text" name="nameInput" id="nameInput"><br>
+
+    <label for="sexInput">Sex: </label><input type="text" name="sexInput" id="sexInput"><br>
+
+    <label for="hairInput">Hair: </label><input type="text" name="hairInput" id="hairInput"><br>
+
+    <label for="eyeInput">Eyes: </label><input type="text" name="eyeInput" id="eyeInput"><br>
+
+    <label for="heightInput">Height: </label><input type="text" name="heightInput" id="heightInput"><br>
+
+
+    <label for="buildInput">Build: </label><input type="text" name="buildInput" id="buildInput"><br>
+
+    <label for="fingerprintInput">Fingerprint Style: </label><input type="text" name="fingerprintInput" id="fingerprintInput"><br>
+
+
+    <label for="glassesInput">Glasses: </label><input type="text" name="glassesInput" id="glassesInput" min="0" max="200"><br>
+
+    <button type="submit">Add Criminal</button>
+
+    </div>
+
+
+</form>
+</div>
+
+<div class="formDiv2">
+<form class="form2" action="criminalSearch.php">
+
+
+    <div class="inputDiv2">
+    <label for="nameInput2">Name: </label><input type="text" name="nameInput" id="nameInput2"><br>
+
+    <label for="sexInput2">Sex: </label><input type="text" name="sexInput" id="sexInput2"><br>
+
+    <label for="hairInput2">Hair: </label><input type="text" name="hairInput" id="hairInput2"><br>
+
+    <label for="eyeInput2">Eyes: </label><input type="text" name="eyeInput" id="eyeInput2"><br>
+
+    <label for="heightInput2">Height: </label><input type="text" name="heightInput" id="heightInput2"><br>
+
+
+    <label for="buildInput2">Build: </label><input type="text" name="buildInput" id="buildInput2"><br>
+
+    <label for="fingerprintInput2">Fingerprint Style: </label><input type="text" name="fingerprintInput" id="fingerprintInput2"><br>
+
+
+    <label for="glassesInput2">Glasses: </label><input type="text" name="glassesInput" id="glassesInput2" min="0" max="200"><br>
+
+    <button type="submit">Search Criminals</button>
+
+    </div>
+
+
+</form>
+</div>
+
+
+
+</body>
+</html>
